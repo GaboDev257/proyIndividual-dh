@@ -21,8 +21,9 @@ body{
 }
 
 #logo{
-    width: 140px;
-    height: 40px;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
 }
 
 #search-header{
@@ -64,23 +65,31 @@ body{
 }
 
 
-@media (min-width:460px ) {
+
+@media (min-width: 768px) {
+    .header-principal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-header{
+        text-align: right;
+        max-width: 350px;
+    }
+
     .Btn-hamburguer{
         display: none;
-    }
-    
-    .header-principal{
-        display: inline-flex;
     }
 
     .header-secondary  {
         display: flex;
-    }
+        justify-content: space-between;
+    } 
     
     .header-secondary ul {
         list-style: none;
             margin: 0px;
             padding: 0px;
+            display: flex;
     }
     
     .header-secondary a {
@@ -89,12 +98,18 @@ body{
         display: inline-block;
         padding: 5px, 0px;
         font-size: 18px;
+        margin: 5px;
     }
-    
-}
-
-@media (min-width: 768px) {
-    
 
 }
 
+
+@media (min-width: 1280px){
+    .header-principal, .header-secondary {
+       max-width: 1280px;
+       margin: auto;
+    }
+    .header-principal{
+        align-items: center;
+    }
+}
