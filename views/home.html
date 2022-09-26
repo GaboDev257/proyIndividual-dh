@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/e1db1c35d5.js" crossorigin="anonymous"></script>
@@ -11,34 +12,41 @@
 </head>
 
 <body>
-    <header id="topnavbar">
-        <div class="header-principal">
-            <div id="logo">
-                <a href="/"><img src="./img/logo-mercado-liebre.svg"></a>
+    <Container id="Container"> 
+        <header id="topnavbar">
+            <div class="header-principal">
+                <div id="logo">
+                    <a href="/"><img src="./img/logo-mercado-liebre.svg"></a>
+                </div>
+                <div class="content-search">
+                    <input id="search-header" type="search" placeholder="Busca productos, marcas y más">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2 class="text-header">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    Compra en cuotas y sin tarjeta de crédito
+                </h2>
             </div>
-            <div class="content-search">
-                <input id="search-header" type="search" placeholder="Busca productos, marcas y más">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <h2 class="text-header">
-                <i class="fa-solid fa-hand-holding-dollar"></i>
-                Compra en cuotas y sin tarjeta de crédito
-            </h2>
-        </div>
-        <nav class="header-secondary">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+            <a href="#" class="Btn-hamburguer">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <nav class="header-secondary">
+                <ul class="navbar-init">
+                    <li><a href=""></a>Ofertas</li>
+                    <li><a href=""></a>Tiendas oficiales</li>
+                    <li><a href=""></a>Vender</li>
+                    <li><a href=""></a>Ayuda</li>
                 </ul>
-        </nav>   
-    </header>
-    <section>
-        <div class="slider-container">  
+                <ul class="navbar-end">
+                    <li><a href=""></a>Crea tu cuenta</li>
+                    <li><a href=""></a>Ingresa</li>
+                    <li><a href=""></a>Mis compras</li>
+                </ul>
+            </nav>   
+        </header>
+        <section>
             
-        </div> 
-    </section>
-
+        </section>
+    </Container> 
 </body>
 </html>
