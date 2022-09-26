@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #FFF159;
+  font-size: 12px;
+  width: 100%;
+}
+
+#topnavbar{
+  background-color: #FFF159;
+  padding: 20px;
+}
+
+.header-principal{
+  display: block;
+}
+
+#logo{
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+}
+
+.text-header{
+  text-align: center;
+  font-weight: 400;
+}
+
+.Btn-hamburguer{
+  background-color: #03264c;
+  color: #ffffff;
+  max-width: 50px;
+  display: block;
+  padding: 15px 0px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+}
+
+.header-secondary{
+  display: none;
+}
+
+#banner-container{
+  display: flex;
+
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.footer-icon {
+  color: #1259c3;
+  font-size: 40px;
+}
+
+
+.footer-ul {
+  display: flex;
+  width: 100%;
+}
+
+.footer-icon i:hover {
+  color: green;
+}
+
+.footer div {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.login-form {
+  margin: auto;
+  font-size: 24px;
+}
+
+.boton-login {
+  margin: auto;
+  padding: 5px;
+  background-color: #efefef;
+  font-size: 18px;
+  border-radius: 23%;
+  transition: background-color 500ms;
+}
+
+.boton-login:hover {
+  background-color: #0022aa;
+  color: #efefef;
+}
+
+/*Formularios*/
+
+.div-formulario {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  margin-top: 150px;
+}
+
+.formulario div {
+  width: 100%;
+}
+
+@media (min-width: 361px) {
+  article {
+    width: 45%;
+  }
+
+  .listas {
+    display: flex;
+  }
+
+  .listas-left {
+    display: flex;
+    width: 80%;
+  }
+
+  .listas-left li {
+    margin-right: 15px;
+  }
+
+  .listas-right {
+    display: flex;
+    width: 80%;
+    justify-content: end;
+  }
+
+  .listas-right li {
+    margin-right: 15px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .search {
+    width: 20%;
+  }
+  .metodos-pago {
+    width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-principal{
+    display: flex;
+    justify-content: space-between;
+}
+.text-header{
+    text-align: right;
+    max-width: 350px;
+}
+
+.Btn-hamburguer{
+    display: none;
+}
+
+.header-secondary  {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.header-secondary ul {
+    list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+}
+
+.header-secondary a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px, 0px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+  article {
+    width: 22%;
+  }
+}
+
+.create-form {
+  margin: 15px;
+  padding: 15px;
+}
+
+.manejar-formulario {
+  margin-bottom: 20px;
+}
+
+.manejar-formulario label {
+  font-style: italic;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.manejar-inputs {
+  width: 100%;
+}
+
+.boton-formulario {
+  border: solid 1px white;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10%;
+}
+
+.boton-formulario:hover {
+  background-color: darkgreen;
+  border: solid 1px black;
+}
+
+
+@media (min-width: 1280px){
+  .header-principal, .header-secondary {
+     max-width: 1280px;
+     margin: auto;
+  }
+  .header-principal{
+      align-items: center;
+  }
+}
