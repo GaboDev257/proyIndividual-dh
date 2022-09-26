@@ -1,0 +1,33 @@
+#topnavbar{
+    background-color: #FFF159;
+    height: 200px;
+}
+
+.header-principal{
+    display: block;
+}
+
+#logo{
+    width: 140px;
+    height: 40px;
+}
+
+#search-header{
+    border: none
+
+}
+
+.content-search{
+    background-color: #ffff;
+    width: 300px;
+}
+.header-secondary{
+    display: flex;
+}
+@media (min-width:500px ) {
+    .content-search{
+        width: 600px
+    }
+    
+}
+
